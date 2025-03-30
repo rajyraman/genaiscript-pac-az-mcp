@@ -1,6 +1,6 @@
 {
     "servers": {
-        "genaiscript-mcp": {
+        "win-genaiscript-mcp": {
             "type": "stdio",
             "command": "cmd",
             "args": [
@@ -18,9 +18,26 @@
             }
             // "envFile": "${workspaceFolder}/.env"
         },
+        "linux-genaiscript-mcp": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "genaiscript",
+                "mcp",
+                "--cwd",
+                "${workspaceFolder}",
+                "--groups",
+                "mcp"
+            ],
+            "env": {
+                "DEBUG": "*"
+            }
+            // "envFile": "${workspaceFolder}/.env"
+        },        
         //This needs Dev Container CLI installed on the host machine.
         // Run "devcontainer up --workspace-folder ." first, before starting the server.
-        "genaiscript-mcp-devcontainer": {
+        // This does not work in Windows. You'll need to run whole of folder inside a DevContainer.
+        "dev-container-genaiscript-mcp": {
             "type": "stdio",
             "command": "devcontainer",
             "args": [

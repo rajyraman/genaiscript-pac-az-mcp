@@ -32,5 +32,5 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "dotnet tool install --global Microsoft.PowerApps.CLI.Tool && npm i -g genaiscript --loglevel info",
-	"postAttachCommand": "chmod +x ./start.sh && ./start.sh"
+	"postAttachCommand": "cd /workspaces/genaiscript-pac-az-mcp && chmod +x ./start.sh && ./start.sh"
 }
