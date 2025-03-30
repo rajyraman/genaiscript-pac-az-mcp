@@ -1,6 +1,6 @@
-# Power Platform CLI, Graph API and Azure Res & Azure CLI - MCP
+# Power Platform CLI, Graph API and Azure REST API - MCP
 
-This repository contains the Model Context Protocol (MCP) tools for using Graph API, Azure REST API using Azure CLI, and Power Platform CLI.
+This repository contains the Model Context Protocol (MCP) tools for using Graph API, Azure REST API using Azure CLI, and Power Platform Admin APIs/Dataverse APIs using Power Platform CLI.
 
 ## What is GenAIScript? 🤖
 
