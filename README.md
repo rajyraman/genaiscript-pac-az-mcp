@@ -188,3 +188,6 @@ Below is how you can use it in the GitHub Copilot chat.
 
 ### Example 3 - Query details from Graph API
 ![Copilot Graph API](./screenshots/copilot-graph.jpg)
+
+### Example 4 - Query about Power Platform environment in Claude Desktop
+![Claude Desktop](./screenshots/claude-chat.jpg)
