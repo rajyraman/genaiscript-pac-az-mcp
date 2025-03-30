@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.azurecli",
+        "ms-azuretools.vscode-azureresourcegroups",
+        "genaiscript.genaiscript-vscode",
+        "github.copilot",
+        "github.copilot-chat"
+    ]
+}

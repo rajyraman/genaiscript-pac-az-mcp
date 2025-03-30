@@ -1,0 +1,22 @@
+{
+    "servers": {
+        "genaiscript-mcp": {
+            "type": "stdio",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "genaiscript",
+                "mcp",
+                "--cwd",
+                "${workspaceFolder}",
+                "--groups",
+                "mcp"
+            ],
+            "env": {
+                "DEBUG": "*"
+            }
+            // "envFile": "${workspaceFolder}/.env"
+        }
+    }
+}
