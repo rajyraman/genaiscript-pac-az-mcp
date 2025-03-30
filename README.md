@@ -19,7 +19,7 @@ This is how Anthropic, the creators of MCP specification, defines [Model Context
 
 # Installation 🛠️
 
-- Install Node JS
+- Install NodeJS
 - Install `genaiscript` CLI using `npm install -g genaiscript`, or use `npx genaiscript`
 
 ## Usage 💻
