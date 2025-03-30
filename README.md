@@ -2,6 +2,11 @@
 
 This repository contains the Model Context Protocol (MCP) tools for using Graph API, Azure REST API using Azure CLI, and Power Platform Admin APIs/Dataverse APIs using Power Platform CLI.
 
+# Prerequisites
+
+1. VSCode Insiders - March 2025 version or Claude Desktop
+2. Azure CLI and Power Platform CLI installed, and authenticated on your local machine, if you are not using the DevContainer option.
+
 ## What is GenAIScript? 🤖
 
 GenAIScript is a framework that enables you to communicate with AI models (even local models). GenAIScript can use MCP tools, and can also act as the MCP server.
