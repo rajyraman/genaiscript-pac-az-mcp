@@ -17,6 +17,28 @@
                 "DEBUG": "*"
             }
             // "envFile": "${workspaceFolder}/.env"
-        }
+        },
+        //This needs Dev Container CLI installed on the host machine.
+        // Run "devcontainer up --workspace-folder ." first, before starting the server.
+        "genaiscript-mcp-devcontainer": {
+            "type": "stdio",
+            "command": "devcontainer",
+            "args": [
+                "exec",
+                "--workspace-folder",
+                "${workspaceFolder}",
+                "npx",
+                "genaiscript",
+                "mcp",
+                "--cwd",
+                ".",
+                "--groups",
+                "mcp"
+            ],
+            "env": {
+                "DEBUG": "*"
+            }
+            // "envFile": "${workspaceFolder}/.env"
+        }        
     }
 }

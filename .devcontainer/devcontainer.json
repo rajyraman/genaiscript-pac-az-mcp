@@ -26,13 +26,11 @@
     "remoteEnv": {
         "PATH": "${containerEnv:PATH}:/home/node/.dotnet/tools"
     },
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "dotnet tool install --global Microsoft.PowerApps.CLI.Tool && npm i -g genaiscript --loglevel info",
-	"postStartCommand": "chmod +x ./start.sh && ./start.sh"
+	"postAttachCommand": "chmod +x ./start.sh && ./start.sh"
 }

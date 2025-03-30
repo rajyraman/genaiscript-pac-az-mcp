@@ -1,3 +1,4 @@
+#!/bin/bash
 # Authenticate Power Platform CLI
 if [[ -z "$PAC_CLIENT_ID" || -z "$PAC_CLIENT_SECRET" || -z "$ENVIRONMENT_URL" || -z "$TENANT_ID" ]]; then
   echo "PAC_CLIENT_ID and/or PAC_CLIENT_SECRET are not set. Authenticate with Device Code"
@@ -13,4 +14,3 @@ else
   az login --service-principal --username $AZ_CLIENT_ID --password $AZ_CLIENT_SECRET --tenant $TENANT_ID
 fi
 exit 0
-

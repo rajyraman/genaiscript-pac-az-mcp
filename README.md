@@ -6,6 +6,8 @@ This repository contains the Model Context Protocol (MCP) tools for using Graph 
 
 1. VSCode Insiders - March 2025 version or Claude Desktop
 2. Azure CLI and Power Platform CLI installed, and authenticated on your local machine, if you are not using the DevContainer option.
+3. [Dev Container CLI](https://code.visualstudio.com/docs/devcontainers/devcontainer-cli#_installation), if you want to run MCP inside a Dev Container.
+4. [Docker](https://docker.com), if you want to run Dev Containers.
 
 ## What is GenAIScript? 🤖
 
