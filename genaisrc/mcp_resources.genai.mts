@@ -1,4 +1,4 @@
-var pacLog = host.logger(`pac`);
+const pacLog = host.logger(`pac`);
 pacLog("Load resources..");
 await host.publishResource("Power Platform CLI Prompt", {
     filename: "https://raw.githubusercontent.com/rajyraman/genaiscript-pac-az-mcp/refs/heads/main/.github/prompts/pac.prompt.md",

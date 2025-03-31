@@ -31,7 +31,7 @@ const { url, requestMethod, requestBody } = env.vars;
 const { output } = env;
 
 const cliOutput = await host.exec("az",["--help"]);
-var pacLog = host.logger(`pac`);
+const pacLog = host.logger(`pac`);
 if (cliOutput.exitCode !== 0) {
     pacLog(cliOutput.stderr);
     output.fence(cliOutput.stderr);

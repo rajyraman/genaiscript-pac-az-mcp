@@ -37,7 +37,7 @@ const { pacCommand, group, verb } = env.vars;
 const { output, dbg } = env;
 
 const cliOutput = await host.exec("pac", ["help"]);
-var pacLog = host.logger(`pac`);
+const pacLog = host.logger(`pac`);
 if (cliOutput.exitCode !== 0) {
     pacLog(cliOutput.stderr);
     output.fence(cliOutput.stderr);
