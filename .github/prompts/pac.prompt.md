@@ -71,7 +71,7 @@
     <step order="4">pac env list help</step>    
     <step order="5">pac env list --environment http://env1.crm6.dynamics.com</step>
     </example>
-    <example id="non_existant_group">
+    <example id="non_existant_verb">
     <description>The command uses the non-existant verb</description>
     <input>
     <pacCommand value="pac solution system"/>
