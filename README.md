@@ -70,7 +70,7 @@ DOCKER_CONTAINER=true
                 "--groups",
                 "mcp",
                 "--startup",
-				"mcp_resources"
+		"mcp_resources"
             ],
             "env": {
                 "DEBUG": "*"
@@ -98,7 +98,7 @@ DOCKER_CONTAINER=true
                 "--groups",
                 "mcp",
                 "--startup",
-				"mcp_resources"
+		"mcp_resources"
             ],
             "env": {
                 "DEBUG": "*"
