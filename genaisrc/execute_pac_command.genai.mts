@@ -29,14 +29,14 @@ script({
             type: "string",
             description: "The environment on which the command command should be executed.",
             example: "https://org.crm6.dynamics.com",
-        }        
+        }
     },
 });
 
 const { pacCommand, group, verb } = env.vars;
 const { output, dbg } = env;
 
-const cliOutput = await host.exec("pac",["help"]);
+const cliOutput = await host.exec("pac", ["help"]);
 var pacLog = host.logger(`pac`);
 if (cliOutput.exitCode !== 0) {
     pacLog(cliOutput.stderr);

@@ -68,12 +68,14 @@ DOCKER_CONTAINER=true
                 "--remote-branch",
                 "main",
                 "--groups",
-                "mcp"
+                "mcp",
+                "--startup",
+				"mcp_resources"
             ],
             "env": {
                 "DEBUG": "*"
             }
-        }		
+        }
     }
 }
 ```
@@ -94,12 +96,14 @@ DOCKER_CONTAINER=true
                 "--remote-branch",
                 "main",
                 "--groups",
-                "mcp"
+                "mcp",
+                "--startup",
+				"mcp_resources"
             ],
             "env": {
                 "DEBUG": "*"
             }
-        }		
+        }
     }
 }
 ```
@@ -133,7 +137,7 @@ Running npx directly seems to create problems in Windows. So, we have to use `cm
                 "DEBUG": "*"
             }
             // "envFile": "${workspaceFolder}/.env"
-        }        
+        }
     }
 }
 ```
@@ -160,7 +164,7 @@ Running npx directly seems to create problems in Windows. So, we have to use `cm
                 "DEBUG": "*"
             }
             // "envFile": "${workspaceFolder}/.env"
-        }        
+        }
     }
 }
 ```
@@ -182,8 +186,13 @@ You can use the prompt in VSCode like below.
 ![Prompt2](./screenshots/prompt2.jpg)
 ![Prompt3](./screenshots/prompt3.jpg)
 
-In Claude Desktop, you can upload the prompt file to the session.
+In Claude Desktop, you can upload the prompt file to the session. The prompts are available as Resources. Choose the appropriate prompt for what you plan to ask Claude. You can choose both if needed, but it is better to choose one, test out the experience first before choosing both.
+
 ![Claude file](./screenshots/claude.jpg)
+
+![PAC Prompt](./screenshots/pac-prompt.jpg)
+
+![AZ Prompt](./screenshots/az-prompt.jpg)
 
 Below is how you can use it in the GitHub Copilot chat.
 
