@@ -58,8 +58,8 @@
     - Run the updated pac command
 
     <error_handling_examples>
-    <example id="non_existant_group">
-    <description>The command uses the non-existant group</description>
+    <example id="non_existent_group">
+    <description>The command uses the non-existent group</description>
     <input>
     <pacCommand value="pac environment list -env http://env1.crm6.dynamics.com"/>
     <group value="environment"/>
@@ -71,8 +71,8 @@
     <step order="4">pac env list help</step>    
     <step order="5">pac env list --environment http://env1.crm6.dynamics.com</step>
     </example>
-    <example id="non_existant_verb">
-    <description>The command uses the non-existant verb</description>
+    <example id="non_existent_verb">
+    <description>The command uses the non-existent verb</description>
     <input>
     <pacCommand value="pac solution system"/>
     <group value="solution"/>
