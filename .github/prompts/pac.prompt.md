@@ -49,12 +49,12 @@
     </output_format>
 
     <error_handling>
-    - If you get any errors, first run `help` on verb level like `pac solution list help`. This is to confirm if verb exists and if so, it exists under the group. Understand all the flags/options under the verb.
+    - If you get any errors, first run `help` on verb level like `pac solution list help`. This is to confirm if the verb exists, and if so, it exists under the group. Understand all the flags/options under the verb.
     - If the verb does not exist, run `help` on group level like `pac solution help`. This is to confirm if the group exists.
-    - If both these commands failed, is means that the verb and/or group does not exist. So, now run `help` on root level like `pac help`.
-    - Running `pac help`, not choose the correct group.
+    - If both these commands failed, it means that the verb and/or group does not exist. So, now run `help` on root level like `pac help`.
+    - After running `pac help`, now choose the correct group.
     - After choose the correct group, now choose the correct verb.
-    - After choose both group and the verb, confirm with the user if you are unsure. Otherwise, start choosing the flags (arguments) and their values
+    - After choosing both group and the verb, confirm with the user if you are unsure. Otherwise, start choosing the flags (arguments) and their values
     - Run the updated pac command
 
     <error_handling_examples>
